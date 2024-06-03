@@ -9,13 +9,6 @@ const Item = ({ params }: { params: { id: number } }) => {
   }
   return (
     <div className="flex gap-4">
-      <Image
-        src={item.image}
-        width={400}
-        height={700}
-        alt="item"
-        className="rounded-2xl"
-      />
       <div className="flex flex-col justify-between">
         <div>
           <h2>{item.name}</h2>

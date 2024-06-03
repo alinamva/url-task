@@ -4,8 +4,8 @@ import Store from "./items/page";
 export default function App() {
   return (
     <>
-      <Home />
-      {/* <Store /> */}
+      {/* <Home /> */}
+      <Store />
     </>
   );
 }

@@ -40,14 +40,7 @@ const Store = () => {
             href={`/items/${item.id}`}
             key={item.id}
           >
-            <div className="flex flex-col items-center justify-center gap-5 text-center border border-gray-400 cursor-pointer w-72 rounded-2xl">
-              <Image
-                src={item.image}
-                width={300}
-                height={400}
-                alt="item"
-                className="rounded-t-2xl"
-              />
+            <div className="flex flex-col items-center justify-center gap-5 p-4 text-center border border-gray-400 cursor-pointer w-72 rounded-2xl">
               <h3>{item.name}</h3>
               <div className="flex justify-between w-full p-4">
                 <p>{item.brand}</p>
